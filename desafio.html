@@ -7,16 +7,26 @@
     <link rel="stylesheet" type="text/css" href="css/desafio.css" />
   </head>
   <body>
-    <label for="valor-hora">Valor Hora</label>
-    <input type="number" id="valor-hora" />
+    <div>
+      <div class="secao__formulario__grupo">
+        <label for="valor-hora">Valor Hora</label>
+        <input type="number" id="valor-hora" />   
+      </div>
 
-    <label for="horas-projeto">Horas Projeto</label>
-    <input type="number" id="horas-projeto" />
+      <div class="secao__formulario__grupo">
+        <label for="horas-projeto">Horas Projeto</label>
+        <input type="number" id="horas-projeto" />     
+      </div>
+    
+      <span class="secao__rodape__span" id="resposta">Resposta</span>
 
-    <span id="resposta">Resposta</span>
-    <button onclick="calcular()">Calcular Projeto</button>
-
-    <a href="index.html">Voltar</a>
+      <div class="secao__formulario__grupo">
+        <button onclick="calcular()">Calcular Projeto</button>
+      </div>
+    
+      <a href="index.html">Voltar</a>  
+    </div>
+    
 
     <script type="text/javascript" src="js/desafio.js"></script>
   </body>
